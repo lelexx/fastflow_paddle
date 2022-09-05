@@ -3,7 +3,6 @@ import os
 import datetime
 import time
 import yaml
-from ignite.contrib import metrics
 from tqdm import tqdm
 import constants as const
 import dataset
