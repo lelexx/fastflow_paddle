@@ -22,7 +22,7 @@
 
 
 
-**论文:** [FastFlow: Unsupervised Anomaly Detection and Localization　via 2D Normalizing Flows](https://arxiv.org/pdf/2111.07677.pdf)
+**论文:** [FastFlow: Unsupervised Anomaly Detection and Localization via 2D Normalizing Flows](https://arxiv.org/pdf/2111.07677.pdf)
 
 **参考repo:** [anomalib](https://github.com/openvinotoolkit/anomalib/tree/main/anomalib/models/fastflow)
 
@@ -48,27 +48,27 @@ MVTec AD是MVtec公司提出的一个用于异常检测的数据集。与之前�
 ### 4.1 目录介绍
 
 ```
-    |--images                         # 测试使用的样例图片，两张
-    |--deploy                         # 预测部署相关
-        |--export_model.py            # 导出模型
-        |--infer.py                   # 部署预测
-    |--configs                        # 模型超参设置
-        |--resnet18.yaml              # 基于resnet18的模型参数设置
-    |--data                           # 训练和测试数据集
-    |--output                         # 单张图片测试时的可视化结果
-    |--lite_data                      # 自建立的小数据集，含有bottle 
-    |--eval                           # eval输出文件
-    |--models                         # 训练的模型权值和日志文件
-    |--test_tipc                      # tipc代码
-    |--fastflow.py                    # fastflow代码
-    |--dataset.py                     # 数据加载
-    |--resnet18.py                    # resnet18模型
-    |--predict.py                     # 预测代码
-    |--eval.py                        # 评估代码
-    |--train.py                       # 训练代码
-    |--utils.py                       # 日志代码
-    |--constants.py                   # 超参设置
-    |----README.md                    # 用户手册
+    |--images                                        # 测试使用的样例图片，两张
+    |--deploy                                        # 预测部署相关
+        |--export_model.py               # 导出模型
+        |--infer.py                                   # 部署预测
+    |--configs                                       # 模型超参设置
+        |--resnet18.yaml                    # 基于resnet18的模型参数设置
+    |--data                                            # 训练和测试数据集
+    |--output                                       # 单张图片测试时的可视化结果
+    |--lite_data                                   # 自建立的小数据集，含有bottle 
+    |--eval                                             # eval输出文件
+    |--models                                      # 训练的模型权值和日志文件
+    |--test_tipc                                   # tipc代码
+    |--fastflow.py                              # fastflow代码
+    |--dataset.py                               # 数据加载
+    |--resnet18.py                             # resnet18模型
+    |--predict.py                               # 预测代码
+    |--eval.py                                     # 评估代码
+    |--train.py                                    # 训练代码
+    |--utils.py                                     # 日志代码
+    |--constants.py                          # 超参设置
+    |----README.md                       # 用户手册
 ```
 
 ### 4.2 准备环境
