@@ -57,7 +57,6 @@ MVTec AD是MVtec公司提出的一个用于异常检测的数据集。与之前�
     |--data                                        # 训练和测试数据集
     |--output                                      # 单张图片测试时的可视化结果
     |--lite_data                                   # 自建立的小数据集，含有bottle 
-    |--eval                                        # eval输出文件
     |--models                                      # 训练的模型权值和日志文件
     |--test_tipc                                   # tipc代码
     |--fastflow.py                                 # fastflow代码
