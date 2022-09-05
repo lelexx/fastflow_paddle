@@ -1,0 +1,32 @@
+===========================train_params===========================
+model_name:fastflow
+python:python
+gpu_list:0
+--cuda:True
+--epochs:lite_train_lite_infer=3|lite_train_whole_infer=3|whole_train_whole_infer=500
+--exp_dir:lite_train_lite_infer=lite_train_lite_infer|lite_train_whole_infer=lite_train_whole_infer|whole_train_whole_infer=whole_train_whole_infer
+--batch_size:lite_train_lite_infer=32|lite_train_whole_infer=32|whole_train_whole_infer=32|whole_infer=32
+--pretrained:null
+train_model_name:
+--data:lite_train_lite_infer=lite_data|lite_train_whole_infer=data|whole_train_whole_infer=data|whole_infer=data
+##
+trainer:norm_train
+norm_train:train.py --category=bottle --config='configs/resnet18.yaml'
+##
+===========================eval_params===========================
+eval:eval.py --category=bottle
+##
+===========================infer_params===========================
+--save_inference_dir:test_tipc/output/fastflow/lite_train_lite_infer
+--pretrained:
+norm_export:deploy/export_model.py --category=bottle
+##
+train_model:test_tipc/output/fastflow/lite_train_lite_infer/model-bottle.pdparams
+infer_export:deploy/export_model.py
+##
+inference:deploy/infer.py
+--use_gpu:True|False
+--batch_size:1
+--model_dir:test_tipc/output//resnet18/
+--image_path:images/bottle_good.png
+--benchmark:False
