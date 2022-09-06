@@ -3,7 +3,7 @@ cd ./models
 mkdir $dir_name
 cd ..
 python train.py  -cfg ./configs/resnet18.yaml --data ./data --exp_dir $dir_name -cat toothbrush
-python train.py  -cfg ./configs/resnet18.yaml --data ./data--exp_dir $dir_name -cat screw
+python train.py  -cfg ./configs/resnet18.yaml --data ./data --exp_dir $dir_name -cat screw
 python train.py  -cfg ./configs/resnet18.yaml --data ./data --exp_dir $dir_name -cat hazelnut
 python train.py  -cfg ./configs/resnet18.yaml --data ./data --exp_dir $dir_name -cat transistor
 python train.py  -cfg ./configs/resnet18.yaml --data ./data --exp_dir $dir_name -cat tile
