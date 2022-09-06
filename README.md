@@ -67,6 +67,7 @@ MVTec AD是MVtec公司提出的一个用于异常检测的数据集。与之前�
     |--train.py                                    # 训练代码
     |--utils.py                                    # 日志代码
     |--constants.py                                # 超参设置
+    |--train.sh                                    # 训练测试脚本，训练所有类别，在脚本中指定模型保存路径
     |----README.md                                 # 用户手册
 ```
 
@@ -88,11 +89,12 @@ MVTec AD是MVtec公司提出的一个用于异常检测的数据集。与之前�
 ### 5.1 模型训练
 
 - 全量数据训练：
-  - `python train.py  -cfg ./configs/resnet18.yaml --data ./data --exp_dir exp -cat toothbrush`
+  - `python train.py  -cfg ./configs/resnet18.yaml --data ./data --exp_dir exp -cat toothbrush`（训练单个类别）
+  - `sh train.sh`（训练所有类别，在shell脚本中指定模型，日志保存路径，默认保存在models/exp下）
 - 少量数据训练：
   - `python train.py  -cfg ./configs/resnet18.yaml --data ./list_data --exp_dir exp -cat toothbrush`
   
-日志和模型训练权重保存在models文件下
+日志和模型训练权重保存在models/exp文件夹下
 
 可以将训练好的模型权重和日志[exp.zip 提取码：3ra1](https://pan.baidu.com/s/1EoDHZWbi8xsDVo6rWwqk2g) 解压放models，直接对模型评估和预测
 
