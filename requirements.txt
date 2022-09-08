@@ -1,7 +1,0 @@
-timm==0.5.4
-tensorboard
-pyyaml==6.0
-scikit-learn==0.24.2
-tqdm
-opencv-python
-numpy
