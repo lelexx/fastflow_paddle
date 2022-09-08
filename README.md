@@ -22,7 +22,7 @@
 
 
 
-**论文:** [FastFlow: Unsupervised Anomaly Detection and Localization　via 2D Normalizing Flows](https://arxiv.org/pdf/2111.07677.pdf)
+**论文:** [FastFlow: Unsupervised Anomaly Detection and Localization via 2D Normalizing Flows](https://arxiv.org/pdf/2111.07677.pdf)
 
 **参考repo:** [anomalib](https://github.com/openvinotoolkit/anomalib/tree/main/anomalib/models/fastflow)
 
