@@ -1,4 +1,4 @@
-dir_name=all_12
+dir_name=exp
 cd ./models
 mkdir $dir_name
 cd ..
