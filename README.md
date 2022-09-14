@@ -109,7 +109,7 @@ MVTec AD是MVtec公司提出的一个用于异常检测的数据集。与之前�
 
 - 全量数据训练：
   - `python train.py  -cfg ./configs/resnet18.yaml --data ./data --exp_dir exp -cat bottle`(训练单个类别)
-  - `sh train.sh` （训练所有类别并进行测试,需要在脚本中指定exp_dir路径）
+  - `sh train.sh` （训练所有类别并进行测试,需要在脚本中指定exp_dir路径和python环境）
 - 少量数据训练：
   - `python train.py  -cfg ./configs/resnet18.yaml --data ./lite_data --exp_dir exp -cat bottle`
   
