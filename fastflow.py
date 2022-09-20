@@ -386,10 +386,3 @@ class FastFlow(nn.Layer):
 
             ret["anomaly_map"] = anomaly_map
         return ret
-
-
-
-
-
-
-
