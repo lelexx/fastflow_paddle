@@ -1,0 +1,30 @@
+Model A.D. Param#: Tensor(shape=[1], dtype=int64, place=Place(gpu:0), stop_gradient=False,
+       [4896728])
+Loading training data
+Took 0.0012252330780029297
+Start training
+bottle  Epoch 1 - iter:1/7 - lr:0.001 - loss = 12.754/12.754 (last/avg) - avg_reader_cost: 0.66608 sec - avg_batch_cost: 2.08545 sec - avg_samples: 32 - avg_ips: 15.34443 images/sec
+bottle  Epoch 1 - iter:2/7 - lr:0.001 - loss = 2.997/7.876 (last/avg) - avg_reader_cost: 0.00023 sec - avg_batch_cost: 0.14044 sec - avg_samples: 32 - avg_ips: 227.85881 images/sec
+bottle  Epoch 1 - iter:3/7 - lr:0.001 - loss = 2.173/5.975 (last/avg) - avg_reader_cost: 0.00021 sec - avg_batch_cost: 0.13956 sec - avg_samples: 32 - avg_ips: 229.28699 images/sec
+bottle  Epoch 1 - iter:4/7 - lr:0.001 - loss = 1.852/4.944 (last/avg) - avg_reader_cost: 0.00020 sec - avg_batch_cost: 0.14021 sec - avg_samples: 32 - avg_ips: 228.23233 images/sec
+bottle  Epoch 1 - iter:5/7 - lr:0.001 - loss = 1.596/4.274 (last/avg) - avg_reader_cost: 0.00021 sec - avg_batch_cost: 0.13975 sec - avg_samples: 32 - avg_ips: 228.97836 images/sec
+bottle  Epoch 1 - iter:6/7 - lr:0.001 - loss = 1.393/3.794 (last/avg) - avg_reader_cost: 0.00020 sec - avg_batch_cost: 0.13992 sec - avg_samples: 32 - avg_ips: 228.70329 images/sec
+bottle  Epoch 1 - iter:7/7 - lr:0.001 - loss = 1.201/3.424 (last/avg) - avg_reader_cost: 0.00021 sec - avg_batch_cost: 0.08624 sec - avg_samples: 17 - avg_ips: 197.11873 images/sec
+EVAL:  image-auc : 0.450000 pixel-auc:0.612000
+bottle  Epoch 2 - iter:1/7 - lr:0.001 - loss = 1.024/1.024 (last/avg) - avg_reader_cost: 0.68557 sec - avg_batch_cost: 0.82901 sec - avg_samples: 32 - avg_ips: 38.60048 images/sec
+bottle  Epoch 2 - iter:2/7 - lr:0.001 - loss = 0.848/0.936 (last/avg) - avg_reader_cost: 0.00023 sec - avg_batch_cost: 0.14037 sec - avg_samples: 32 - avg_ips: 227.97144 images/sec
+bottle  Epoch 2 - iter:3/7 - lr:0.001 - loss = 0.730/0.867 (last/avg) - avg_reader_cost: 0.00021 sec - avg_batch_cost: 0.14003 sec - avg_samples: 32 - avg_ips: 228.51444 images/sec
+bottle  Epoch 2 - iter:4/7 - lr:0.001 - loss = 0.596/0.799 (last/avg) - avg_reader_cost: 0.00033 sec - avg_batch_cost: 0.14004 sec - avg_samples: 32 - avg_ips: 228.51250 images/sec
+bottle  Epoch 2 - iter:5/7 - lr:0.001 - loss = 0.432/0.726 (last/avg) - avg_reader_cost: 0.00122 sec - avg_batch_cost: 0.14067 sec - avg_samples: 32 - avg_ips: 227.48690 images/sec
+bottle  Epoch 2 - iter:6/7 - lr:0.001 - loss = 0.279/0.651 (last/avg) - avg_reader_cost: 0.00020 sec - avg_batch_cost: 0.14002 sec - avg_samples: 32 - avg_ips: 228.54362 images/sec
+bottle  Epoch 2 - iter:7/7 - lr:0.001 - loss = 0.150/0.580 (last/avg) - avg_reader_cost: 0.00025 sec - avg_batch_cost: 0.09678 sec - avg_samples: 17 - avg_ips: 175.66164 images/sec
+EVAL:  image-auc : 0.501000 pixel-auc:0.731000
+bottle  Epoch 3 - iter:1/7 - lr:0.001 - loss = 0.022/0.022 (last/avg) - avg_reader_cost: 0.72028 sec - avg_batch_cost: 0.86507 sec - avg_samples: 32 - avg_ips: 36.99116 images/sec
+bottle  Epoch 3 - iter:2/7 - lr:0.001 - loss = -0.110/-0.044 (last/avg) - avg_reader_cost: 0.00024 sec - avg_batch_cost: 0.14008 sec - avg_samples: 32 - avg_ips: 228.44093 images/sec
+bottle  Epoch 3 - iter:3/7 - lr:0.001 - loss = -0.188/-0.092 (last/avg) - avg_reader_cost: 0.00021 sec - avg_batch_cost: 0.14022 sec - avg_samples: 32 - avg_ips: 228.20672 images/sec
+bottle  Epoch 3 - iter:4/7 - lr:0.001 - loss = -0.232/-0.127 (last/avg) - avg_reader_cost: 0.00032 sec - avg_batch_cost: 0.13986 sec - avg_samples: 32 - avg_ips: 228.80622 images/sec
+bottle  Epoch 3 - iter:5/7 - lr:0.001 - loss = -0.315/-0.164 (last/avg) - avg_reader_cost: 0.00023 sec - avg_batch_cost: 0.14065 sec - avg_samples: 32 - avg_ips: 227.51582 images/sec
+bottle  Epoch 3 - iter:6/7 - lr:0.001 - loss = -0.247/-0.178 (last/avg) - avg_reader_cost: 0.00022 sec - avg_batch_cost: 0.13949 sec - avg_samples: 32 - avg_ips: 229.40300 images/sec
+bottle  Epoch 3 - iter:7/7 - lr:0.001 - loss = -0.489/-0.223 (last/avg) - avg_reader_cost: 0.00020 sec - avg_batch_cost: 0.08615 sec - avg_samples: 17 - avg_ips: 197.32439 images/sec
+EVAL:  image-auc : 0.694000 pixel-auc:0.815000
+Training time 0:00:20
