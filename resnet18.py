@@ -261,4 +261,3 @@ def _resnet(arch, Block, depth, pretrained, **kwargs):
 
 def resnet18(pretrained=False, **kwargs):
     return _resnet('resnet18', BasicBlock, 18, pretrained, **kwargs)
-
