@@ -169,4 +169,3 @@ bash test_tipc/test_train_inference_python.sh test_tipc/configs/fastflow/train_i
 | 框架版本 | PaddlePaddle==2.3.2 |
 | 应用场景 | 异常检测 |
 | 硬件支持 | GPU、CPU |
-
