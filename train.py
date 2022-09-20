@@ -375,4 +375,3 @@ if __name__ == "__main__":
     image_auroc_list_all[args.category] = image_auroc_list
     print('save:{}'.format(exp_dir))
     print_result(pixel_auroc_list_all, image_auroc_list_all)
-    
