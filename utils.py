@@ -68,6 +68,3 @@ def save_config(checkpoint_dir):
     os.makedirs(save_dir, exist_ok=True)
     os.system('cp -r ./configs {}'.format(save_dir))
     os.system('cp ./*.py {}'.format(save_dir))
-
-    
-
