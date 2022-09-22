@@ -56,6 +56,7 @@ MVTec AD是MVtec公司提出的一个用于异常检测的数据集。与之前�
     |--deploy                         # 预测部署相关
         |--export_model.py            # 导出模型
         |--infer.py                   # 部署预测
+    |--results                        # 保存权重和日志 
     |--configs                        # 配置
     |--models                         # 模型实现文件
     |--datasets                       # 数据集加载
