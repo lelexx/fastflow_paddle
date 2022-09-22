@@ -110,7 +110,7 @@ MVTec AD是MVtec公司提出的一个用于异常检测的数据集。与之前�
   
 日志和模型训练权重保存在models文件下
 
-可以将训练好的模型权重和日志[exp.zip 提取码：3ra1](https://pan.baidu.com/s/1EoDHZWbi8xsDVo6rWwqk2g) 解压放models，直接对模型评估和预测
+可以将训练好的模型权重和日志[exp.zip 提取码：3ra1](https://pan.baidu.com/s/1EoDHZWbi8xsDVo6rWwqk2g) 解压放results，直接对模型评估和预测
 
 ### 5.2 模型评估(通过5.1完成训练后)
 
