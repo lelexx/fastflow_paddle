@@ -26,6 +26,8 @@
 
 **参考repo:** [anomalib](https://github.com/openvinotoolkit/anomalib/tree/main/anomalib/models/fastflow)
 
+**aistudio体验教程:** [FastFlow_Paddle](https://aistudio.baidu.com/aistudio/projectdetail/4579846?contributionType=1)
+
 
 ## 2. 数据集
 
